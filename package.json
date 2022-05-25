@@ -1,0 +1,18 @@
+{
+  "name": "simon-says-smwyg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "author": "AB Dee",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.9"
+  }
+}

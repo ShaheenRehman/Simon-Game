@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/simon-fav.jpg" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Simon Game</title>
+</head>
+
+<body class="bg-neutral-900 grid place-content-center mt-16 mb-0 m-32">
+    <div class="container mb-10">
+        <h1 id="title" class="text-white text-5xl text-center font-mono mb-2 ">Simon Game</h1>
+    </div>
+    <div class="container ">
+        <div class="topdiv flex ">
+            <div id="yellow" type="button" data-tile="yellow"
+                class="box h-44 w-44 bg-yellow-400 yellow rounded-tl-full mx-1 my-1">
+            </div>
+            <div id="green" type="button" data-tile="green"
+                class="box h-44 w-44 bg-green-600 green rounded-tr-full mx-1 my-1"></div>
+        </div>
+
+        <button id="start"
+            class="btn absolute h-40 w-40 drop-shadow-2xl shadow-black -mt-20 rounded-full text-white bg-neutral-900">
+            <p id="level" class="text-4xl font-mono js-start">GO</p>
+        </button>
+
+        <div class="botdiv flex ">
+            <div id="red" type="button" data-tile="red" class="box h-44 w-44 bg-red-600 red rounded-bl-full mx-1 my-1">
+            </div>
+            <div id="blue" type="button" data-tile="blue"
+                class="box h-44 w-44 bg-blue-700 blue rounded-br-full mx-1 my-1"></div>
+        </div>
+
+    </div>
+
+    <p class="text-white text-center font-mono pt-7" id="line">Click "GO" to start the Game</p>
+
+    <div class="hidden">
+        <audio src="/sounds/yellow.mp3" data-sound="yellow"></audio>
+        <audio src="/sounds/green.mp3" data-sound="green"></audio>
+        <audio src="/sounds/red.mp3" data-sound="red"></audio>
+        <audio src="/sounds/blue.mp3" data-sound="blue"></audio>
+        <audio src="/sounds/wrong.mp3" data-sound="wrong"></audio>
+    </div>
+
+
+
+    <!-- JavaScript -->
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
