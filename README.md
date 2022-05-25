@@ -4,9 +4,9 @@
 Simon Game in full vanilla JavaScript.
 This is my CS50x Final Project. 
 
-## Demo
+## Play Here:
 
-Insert gif or link to demo
+https://devabdee.github.io/Simon-Game/
 
 
 ## Tech Stack
