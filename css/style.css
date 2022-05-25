@@ -1,6 +1,6 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+
 
 .pressed {
     background: #fff;
@@ -9,6 +9,11 @@
 .gameOver {
     background-color: rgb(205, 0, 0);
 }
+
+
+
+@tailwind utilities;
+
 
 #start {
     margin-left: 6.25rem;
