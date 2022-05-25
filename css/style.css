@@ -3,14 +3,12 @@
 
 
 .pressed {
-    background: #fff;
-}
+   background: #fff !important;
+ }
 
 .gameOver {
-    background-color: rgb(205, 0, 0);
+   background-color: rgb(205, 0, 0) !important;
 }
-
-
 
 @tailwind utilities;
 
