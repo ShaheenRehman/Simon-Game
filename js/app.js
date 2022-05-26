@@ -61,13 +61,13 @@ function simonGame(currentLevel) {
         document.getElementById("level").innerHTML = "GO"
         document.getElementById('line').innerHTML = "Click GO to restart the Game";
 
-        if (level <= 5) {
+        if (level <= 3) {
             document.getElementById("title").innerHTML = "Noob xD";
-        } else if (level >= 6 && level <= 10) {
-            document.getElementById("title").innerHTML = "Not Bad!";
-        } else if (level >= 11 && level <= 15) {
+        } else if (level >= 4 && level <= 7) {
+            document.getElementById("title").innerHTML = "Good job.";
+        } else if (level >= 8 && level <= 11) {
             document.getElementById("title").innerHTML = "Great Game Man!";
-        } else if (level >= 16 && level <= 20) {
+        } else if (level >= 12 && level <= 15) {
             document.getElementById("title").innerHTML = "Salam Legend!";
         } else {
             document.getElementById("title").innerHTML = "Salam GOAT!";
