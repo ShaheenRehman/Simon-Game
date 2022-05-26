@@ -66,7 +66,7 @@ function simonGame(currentLevel) {
         } else if (level >= 5 && level <= 6) {
             document.getElementById("title").innerHTML = "Good job";
         } else if (level >= 7 && level <= 8) {
-            document.getElementById("title").innerHTML = "Great Game Man";
+            document.getElementById("title").innerHTML = "Great Game";
         } else if (level >= 9 && level <= 11) {
             document.getElementById("title").innerHTML = "Salam Legend!";
         } else {
